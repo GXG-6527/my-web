@@ -31,8 +31,8 @@ export const Hero = () => {
           Specializing in high-end product visualization and creative motion design. 
           Transforming complex technology into breathtaking visual narratives.
           <br />
-          <span className="text-sm mt-2 block opacity-60 whitespace-nowrap">
-            专注于高端产品视觉化与创意动效设计，将复杂的科技转译为震撼人心的视觉叙事。
+          <span className="text-sm mt-2 block opacity-60">
+            专注高端产品视觉化与创意动效，将复杂科技转译为视觉叙事。
           </span>
         </motion.p>
       </div>

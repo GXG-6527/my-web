@@ -23,9 +23,9 @@ export const ProjectDetail = ({ project, onClose }: ProjectDetailProps) => {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           onClick={onClose}
-          className="fixed top-8 right-8 z-[110] w-12 h-12 rounded-full bg-white text-black flex items-center justify-center hover:scale-110 transition-transform interactive"
+          className="fixed top-4 right-4 md:top-8 md:right-8 z-[110] w-10 h-10 md:w-12 md:h-12 rounded-full bg-white text-black flex items-center justify-center hover:scale-110 transition-transform interactive"
         >
-          <X size={24} />
+          <X size={20} className="md:w-6 md:h-6" />
         </motion.button>
 
         <div className="max-w-6xl mx-auto px-6 py-20">

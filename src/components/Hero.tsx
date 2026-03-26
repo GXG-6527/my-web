@@ -14,11 +14,11 @@ export const Hero = () => {
           <span className="text-zinc-500 uppercase tracking-[0.3em] text-xs font-semibold mb-4 block">
             Senior 3D Designer / 资深三维设计师
           </span>
-          <h1 className="text-6xl md:text-9xl font-bold tracking-tighter leading-[0.9] mb-8">
+          <h1 className="text-5xl sm:text-6xl md:text-9xl font-bold tracking-tighter leading-[0.9] mb-8">
             VISUALIZING <br />
             <span className="text-gradient">CONCEPTS</span>
-            <div className="text-4xl md:text-7xl mt-4 tracking-[0.05em]">构筑灵感</div>
-            <div className="text-sm md:text-lg mt-8 opacity-40 tracking-[1.5em] font-light">动 态 展 示</div>
+            <div className="text-3xl sm:text-4xl md:text-7xl mt-4 tracking-[0.05em]">构筑灵感</div>
+            <div className="text-xs sm:text-sm md:text-lg mt-8 opacity-40 tracking-[1.5em] font-light">动 态 展 示</div>
           </h1>
         </motion.div>
 
